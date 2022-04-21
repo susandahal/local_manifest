@@ -8,4 +8,5 @@
   <project path="vendor/xiaomi/surya" name="vendor_xiaomi_surya" remote="susan" revision="lineage-19.1" />
   <project path="kernel/xiaomi/surya" name="lineage-surya/android_kernel_xiaomi_surya" remote="github" revision="lineage-19.1" />
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-19.1" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-19.1" />
 </manifest>
