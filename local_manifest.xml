@@ -4,7 +4,7 @@
       <remote name="susan"
           fetch="https://github.com/susandahal" />        
             
-  <project path="device/xiaomi/surya" name="device_xiaomi_surya-1" remote="susan" revision="pixys"/>
+  <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="susan" revision="pixys"/>
   <project path="vendor/xiaomi/surya" name="vendor_xiaomi_surya" remote="susan" revision="lineage-19.1" />
   <project path="kernel/xiaomi/surya" name="lineage-surya/android_kernel_xiaomi_surya" remote="github" revision="lineage-19.1" />
 </manifest>
