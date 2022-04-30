@@ -8,7 +8,7 @@
            fetch="https://github.com/PixysOS"/-->
 
       <remote  name="lineage-surya"
-           fetch="https://github.com/lineage-surya"
+           fetch="https://github.com/lineage-surya"/>
 
   <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="susan" revision="cipher"/>
   <project path="vendor/xiaomi/surya" name="vendor_xiaomi_surya" remote="susan" revision="lineage-19.1" />
