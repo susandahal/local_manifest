@@ -13,7 +13,7 @@
       <remote  name="lineage-surya"
            fetch="https://github.com/lineage-surya"
 
-  <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="susan" revision="pixys"/>
+  <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="susan" revision="cipher"/>
   <project path="vendor/xiaomi/surya" name="vendor_xiaomi_surya" remote="susan" revision="lineage-19.1" />
   <project path="kernel/xiaomi/surya" name="android_kernel_xiaomi_surya" remote="lineage-surya" revision="lineage-19.1" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" revision="lineage-19.1" />
