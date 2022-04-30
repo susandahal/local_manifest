@@ -2,7 +2,10 @@
 <manifest>
 
       <remote name="susan"
-          fetch="https://github.com/susandahal" />        
+          fetch="https://github.com/susandahal" />
+
+      <remote  name="github"
+           fetch="https://github.com/"
             
   <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="susan" revision="pixys"/>
   <project path="vendor/xiaomi/surya" name="vendor_xiaomi_surya" remote="susan" revision="lineage-19.1" />
