@@ -4,12 +4,18 @@
       <remote name="susan"
           fetch="https://github.com/susandahal" />
 
-      <remote  name="github"
-           fetch="https://github.com/"
-            
+      <remote  name="pixys"
+           fetch="https://github.com/PixysOS"
+
+      <remote  name="lineage"
+           fetch="https://github.com/LineageOS"
+
+      <remote  name="lineage-surya"
+           fetch="https://github.com/lineage-surya"
+
   <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="susan" revision="pixys"/>
   <project path="vendor/xiaomi/surya" name="vendor_xiaomi_surya" remote="susan" revision="lineage-19.1" />
-  <project path="kernel/xiaomi/surya" name="lineage-surya/android_kernel_xiaomi_surya" remote="github" revision="lineage-19.1" />
-  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-19.1" />
-  <project path="packages/resources/devicesettings" name="PixysOS/packages_resources_devicesettings" remote="github" revision="twelve" />
+  <project path="kernel/xiaomi/surya" name="android_kernel_xiaomi_surya" remote="lineage-surya" revision="lineage-19.1" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" revision="lineage-19.1" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="pixys" revision="twelve" />
 </manifest>
