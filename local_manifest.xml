@@ -9,4 +9,7 @@
   <project path="kernel/xiaomi/surya" name="lineage-surya/android_kernel_xiaomi_surya" remote="github" revision="lineage-19.1" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="susan" revision="lineage-19.1" />
   <project path="packages/resources/devicesettings" name="PixysOS/packages_resources_devicesettings" remote="github" revision="twelve" />
+
+  <remove-project name="platform/system/core"/>
+  <project path="system/core" name="system_core" remote="susan" revision="twelve"/>
 </manifest>
