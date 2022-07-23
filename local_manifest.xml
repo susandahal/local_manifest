@@ -12,8 +12,11 @@
 
   <remove-project name="system_vold"/>
   <remove-project name="system_core"/>
+  <remove-project name="hardware_interfaces"/>
+  <remove-project name="system_security"/>
 
   <project path="system/core" name="system_core" remote="susan" revision="twelve"/>
   <project path="system/vold" name="LineageOS/android_system_vold" remote="github" revision="lineage-19.1"/>
-
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="susan" revision="twelve" />
+  <project path="system/security" name="system_security" remote="susan" revision="twelve" />
 </manifest>
