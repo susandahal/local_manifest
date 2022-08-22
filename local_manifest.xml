@@ -7,6 +7,5 @@
   <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="susan" revision="xdroid"/>
   <project path="vendor/xiaomi" name="vendor_xiaomi_surya" remote="susan" revision="pixys" />
   <project path="kernel/xiaomi/surya" name="kernel_xiaomi_surya" remote="susan" revision="rebase4" />
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="susan" revision="lineage-19.1" />
 
 </manifest>
