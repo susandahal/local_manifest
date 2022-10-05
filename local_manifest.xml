@@ -2,10 +2,13 @@
 <manifest>
 
       <remote name="susan"
-          fetch="https://github.com/susandahal" />        
+          fetch="https://github.com/susandahal" />    
+
+      <remote name="subhajeet"
+	  fetch="https://github.com/subhajeetmuhuri"/>
             
-  <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="susan" revision="xdroid"/>
-  <project path="vendor/xiaomi" name="vendor_xiaomi_surya" remote="susan" revision="pixys" />
-  <project path="kernel/xiaomi/surya" name="kernel_xiaomi_surya" remote="susan" revision="rebase4" />
+  <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="susan" revision="xdroid13"/>
+  <project path="vendor/xiaomi/surya" name="proprietary_vendor_xiaomi_surya" remote="subhajeet" revision="lineage-20" />
+  <project path="kernel/xiaomi/surya" name="android_kernel_xiaomi_surya" remote="subhajeet" revision="lineage-20" />
 
 </manifest>
