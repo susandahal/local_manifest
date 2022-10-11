@@ -12,5 +12,6 @@
   <project path="kernel/xiaomi/surya" name="android_kernel_xiaomi_surya" remote="subhajeet" revision="lineage-20" />
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="LineageOS/android_device_qcom_sepolicy_vndr" remote="github" revision="lineage-20.0-legacy-um"/>
   <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" remote="github" revision="lineage-20.0"/>
+  <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="susan" revision="thirteen"/>
 
 </manifest>
