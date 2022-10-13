@@ -6,13 +6,13 @@
 
       <remote name="subhajeet"
 	  fetch="https://github.com/subhajeetmuhuri"/>
-            
+  
+  <remove-project name="xd/vendor/xdroid"/>          
   <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="susan" revision="xdroid13"/>
   <project path="vendor/xiaomi/surya" name="proprietary_vendor_xiaomi_surya" remote="subhajeet" revision="lineage-20" />
   <project path="kernel/xiaomi/surya" name="android_kernel_xiaomi_surya" remote="subhajeet" revision="lineage-20" />
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="LineageOS/android_device_qcom_sepolicy_vndr" remote="github" revision="lineage-20.0-legacy-um"/>
 
-  <remove-project name="vendor/xdroid"/>
   <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="susan" revision="thirteen"/>
 
 </manifest>
