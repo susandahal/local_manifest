@@ -8,7 +8,7 @@
   <project path="vendor/xiaomi/surya" name="vendor_xiaomi_surya" remote="susan" revision="pixys-13" />
   <project path="kernel/xiaomi/surya" name="android_kernel_xiaomi_surya" remote="susan" revision="pixys-13" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="susan" revision="lineage-20" />
-  <project path="packages/resources/devicesettings" name="PixysOS/packages_resources_devicesettings" remote="github" revision="thirteen" />
+  <!--project path="packages/resources/devicesettings" name="PixysOS/packages_resources_devicesettings" remote="github" revision="thirteen" /-->
   <project clone-depth="1" path="prebuilts/clang/host/linux-x86/clang-playground" name="PixelOS-Devices/playgroundtc" remote="gitlab" revision="16"/>
 
 </manifest>
