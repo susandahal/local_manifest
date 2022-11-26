@@ -10,5 +10,6 @@
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="susan" revision="lineage-20" />
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="android_device_qcom_sepolicy_vndr" remote="susan" revision="lineage-20.0-legacy-um" />
   <project clone-depth="1" path="prebuilts/clang/host/linux-x86/clang-playground" name="PixelOS-Devices/playgroundtc" remote="gitlab" revision="16"/>
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" />
 
 </manifest>
