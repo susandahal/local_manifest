@@ -3,12 +3,13 @@
 
       <remote name="susan"
           fetch="https://github.com/susandahal" />        
+      <remote name="ImSurajxD"
+                fetch="https://gitlab.com/ImSurajxD" />
             
   <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="susan" revision="pixys-13"/>
   <project path="vendor/xiaomi/surya" name="TheStrechh/android_vendor_xiaomi_surya" remote="github" revision="lineage-20" />
   <project path="kernel/xiaomi/surya" name="TheStrechh/android_kernel_xiaomi_surya" remote="github" revision="lineage-20" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="susan" revision="lineage-20" />
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="android_device_qcom_sepolicy_vndr" remote="susan" revision="lineage-20.0-legacy-um" />
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" />
-
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
 </manifest>
