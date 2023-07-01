@@ -4,9 +4,9 @@
       <remote name="susan"
           fetch="https://github.com/susandahal" />        
             
-  <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="susan" revision="derp"/>
-  <project path="vendor/xiaomi" name="vendor_xiaomi_surya" remote="susan" revision="pixys" />
-  <project path="kernel/xiaomi/surya" name="kernel_xiaomi_surya" remote="susan" revision="rebase4" />
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="susan" revision="lineage-19.1" />
-
+  <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="susan" revision="yaap"/>
+  <project path="vendor/xiaomi/surya" name="aosp-gr/vendor_xiaomi_surya" remote="github" revision="13" />
+  <project path="kernel/xiaomi/surya" name="rd-stuffs/android_kernel_xiaomi_surya" remote="github" revision="arrow-13.1" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="susan" revision="lineage-20" />
+  <project path="device/xiaomi/J20C-sepolicy" name="aosp-gr/device_xiaomi_J20C-sepolicy" remote="github" revision="12"/>
 </manifest>
