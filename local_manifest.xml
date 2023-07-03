@@ -6,7 +6,7 @@
             
   <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="susan" revision="yaap"/>
   <project path="vendor/xiaomi/surya" name="aosp-gr/vendor_xiaomi_surya" remote="github" revision="13" />
-  <project path="kernel/xiaomi/surya" name="msm-4.14" remote="susan" revision="android13-4.14-msmnile" />
+	<project path="kernel/xiaomi/surya" name="lostark13/kernel_xiaomi_surya" remote="github" revision="13" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="susan" revision="lineage-20" />
   <project path="device/xiaomi/J20C-sepolicy" name="aosp-gr/device_xiaomi_J20C-sepolicy" remote="github" revision="12"/>
   <project path="device/qcom/common" name="rd-stuffs/android_device_qcom_common" remote="github" revision="topaz"/>
